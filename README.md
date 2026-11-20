@@ -1,27 +1,27 @@
-# OSEF Engineers — site officiel GitHub Pages
+# OSEF — Open Source Enterprise Factory · Portail officiel
 
-Portail public de l'organisation **Open Source Enterprise Factory**.
+**Site public :** https://osef.africascaler.com/  
+**English:** https://osef.africascaler.com/en/  
+**Dépôt source :** https://github.com/opensource-enterprise-factory/opensource-enterprise-factory.github.io
 
-Site attendu après activation et publication GitHub Pages : https://opensource-enterprise-factory.github.io/
+Publication GitHub Pages depuis `main` et domaine personnalisé défini dans `CNAME`.
 
 ## Pages
 
-- `index.html` — accueil, mission ADVISE / BUILD / OPERATE
-- `admission.html` — parcours d'admission des ingénieurs
-- `responsabilites.html` — rôles et mandats opérationnels
-- `style.css` — feuille de styles commune
-- `OPERATING-MODEL.md` — procédure interne proposée et périmètres de confidentialité
+- `index.html` / `en/index.html` : vision, mission, produits et partenaires.
+- `produits.html` : catalogue en développement.
+- `partenaires-esn.html`, `partenaires-cloud.html` : modèles de collaboration proposés.
+- `engineering.html` : standard OSEF-ENG-012 en phase pilote.
+- `admission.html` : parcours d'admission à valider.
+- `recrutement.html` : manifestation d'intérêt ingénieur FR/EN, **réception à activer et tester**.
+- `contact.html` : formulaire commercial FR/EN, **réception à activer et tester**.
+- `contact-received.html` : information de statut (n'atteste pas la livraison e-mail).
+- `sitemap.xml` / `robots.txt` : référencement du domaine officiel.
 
-## Publication
+## Confidentialité et exploitation
 
-Dans les paramètres **Settings → Pages** de ce dépôt, sélectionner **Deploy from a branch**, branche `main`, dossier `/(root)`.
+Les formulaires publics transmettent les données à **FormSubmit.co**, fournisseur externe, vers l'adresse définie par OSEF. Les formulaires doivent être validés par un test réel de réception avant toute annonce d'activation. Les CV, documents d'identité, secrets et données clients ne doivent pas être soumis.
 
-L'activation des Pages ne peut pas être effectuée par les outils de modification du code ici. L'adresse du site doit être vérifiée après déploiement.
+Suivi du canal commercial : [docs/CONTACT-DELIVERY.md](./docs/CONTACT-DELIVERY.md). Le traitement des candidatures nécessite un dispositif privé de conservation et de sélection, distinct de GitHub public.
 
-## Sécurité
-
-Le site est public. Ne jamais y ajouter des CV, coordonnées de candidats, dossiers individuels, secrets, contrats, informations confidentielles des entreprises, résultats d'évaluation ou registres de membres.
-
-Le canal de candidature privé n'est pas encore déployé. Les processus et mandats proposés doivent être validés par l'organisation.
-
-Source initiale : https://github.com/opensource-enterprise-factory/.github/tree/main/docs
+Ne jamais commiter de données personnelles ou clients, de clés, d'identifiants ou de dossiers confidentiels dans ce dépôt public.
